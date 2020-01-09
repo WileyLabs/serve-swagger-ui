@@ -1,0 +1,28 @@
+{
+  "name": "serve-swagger-ui",
+  "version": "0.0.1",
+  "description": "Serve Swagger UI from any directory",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swagger",
+    "openapi",
+    "viewer"
+  ],
+  "author": "John Wiley & Sons, Inc.",
+  "contributors": [
+    {
+      "name": "Benjamin Young",
+      "email": "byoung2@wiley.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-dist": "^3.24.3",
+    "yargs": "^15.1.0"
+  }
+}
