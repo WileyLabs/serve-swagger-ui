@@ -22,6 +22,20 @@ Or if you need a custom directory and/or port number:
 serve-swagger-ui api/ -p 2020
 ```
 
+## Docker
+
+To use it as a Docker container:
+
+```
+$ docker build -t serve-swagger-ui .
+```
+
+Now you can serve files from your local folder:
+
+```
+$ docker run -it -v $PWD:/specs -p 3000:3000 serve-swagger-ui
+```
+
 ## License
 
 MIT
