@@ -13,7 +13,7 @@ Click "Explore" and you should see the documentation of your API loaded below.
 ## Usage
 
 ```
-$ npm i -g serve-swagger-ui
+$ npm i -g WileyLabs/serve-swagger-ui
 $ serve-swagger-ui
 ```
 
