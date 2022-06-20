@@ -1,0 +1,5 @@
+version: 3
+project:
+  id: serve-swagger-ui
+  team: WileyLabs
+  url: https://github.com/WileyLabs/serve-swagger-ui
